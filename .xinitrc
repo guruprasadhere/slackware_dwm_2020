@@ -19,7 +19,7 @@ export SAVEHIST
 export NNN_OPENER=xdg-open
 export NNN_OPENER=gvfs-open
 export NNN_BMS="h:/home/guru;t:/home/guru/Research/Thesis;r:/home/guru/Research/Latex/DAC-8;d:/home/guru/Downloads;m:/mnt/DATA"
-export NNN_COLORS="4562"
+export NNN_COLORS="6542"
 #export EDITOR='vim'
 export NNN_TRASH=1 
 export VISUAL='vim'
@@ -73,7 +73,9 @@ sleep 60
 done &
 
 
-xsetroot -solid '#5D0F0D'
+#xsetroot -solid '#5D0F0D'
+xsetroot -solid teal
+#xsetroot -bitmap /usr/include/X11/bitmaps/l-linux.xbm
 sleep 1;
 xset dpms 300 400 500; sleep 1;
 #exec twm
